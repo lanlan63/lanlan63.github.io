@@ -45,7 +45,7 @@ user.
 Administrative Constraint: All server configurations must be performed via SSH from your 
 workstation.
 ## Week 5
-Phase 5: Advanced Security and Monitoring Infrastructure (Week 5)
+### Advanced Security and Monitoring Infrastructure 
 Implement advanced security controls and develop monitoring capabilities.
 Deliverables (Journal and Video):
 1. Implement Access Control using SELinux or AppArmor, with documentation showing how to 
