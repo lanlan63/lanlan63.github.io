@@ -25,6 +25,11 @@ testing approach
 2. Security Configuration Checklist covering SSH hardening, firewall configuration, mandatory 
 access control, automatic updates, user privilege management, and network security
 3. Threat Model identifying at least 3 specific security threats with mitigation strategies
+
+inter-Process Communication week5pdf
+For your journal: Document pipeline examples with explanations. Explain how pipes 
+enable process cooperation and data flow between programmes.
+
 ## Week 3
 ### Application Selection for Performance Testing 
 Select applications representing different workload types for performance evaluation.
@@ -35,6 +40,9 @@ with justifications for choosing them.
 2. Installation Documentation with exact commands for SSH-based installation
 3. Expected Resource Profiles documenting anticipated resource usage
 4. Monitoring Strategy explaining measurement approach for each application
+
+initial secuity pdf
+
 ## Week 4
 ### Initial System Configuration & Security Implementation 
 Deploy your server and implement foundational security controls.
@@ -49,6 +57,9 @@ user.
 7. Remote Administration Evidence demonstrating commands executed via SSH
 Administrative Constraint: All server configurations must be performed via SSH from your 
 workstation.
+
+week8 lab activity pdf
+
 ## Week 5
 ### Advanced Security and Monitoring Infrastructure 
 Implement advanced security controls and develop monitoring capabilities.
