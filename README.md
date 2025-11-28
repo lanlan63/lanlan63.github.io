@@ -10,7 +10,7 @@ alternatives
 4. Network configuration documentation covering VirtualBox settings and IP addressing
 5. Using a CLI, document system specifications using `uname`, `free`, `df -h`, `ip addr`, and 
 `lsb_release`
-<img width="411" height="91" alt="Screenshot 2025-11-28 151826" src="https://github.com/user-attachments/assets/bc0022d3-e3b3-410d-9c65-3938ba38fc38" />  
+<img width="411" height="91" alt="Screenshot 2025-11-28 151826" src="https://github.com/user-attachments/assets/bc0022d3-e3b3-410d-9c65-3938ba38fc38" />\
 <img width="416" height="157" alt="Screenshot 2025-11-28 152746" src="https://github.com/user-attachments/assets/103d48af-d61d-4c81-9ad0-f253d0bad065" />
 <img width="421" height="214" alt="Screenshot 2025-11-28 152817" src="https://github.com/user-attachments/assets/c20836a5-3563-4ecc-86d9-17424986385e" />
 <img width="421" height="38" alt="Screenshot 2025-11-28 152914" src="https://github.com/user-attachments/assets/3f0ba298-990f-4e67-a7ad-6723999822d3" />
