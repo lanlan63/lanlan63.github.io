@@ -26,9 +26,12 @@ testing approach
 access control, automatic updates, user privilege management, and network security
 3. Threat Model identifying at least 3 specific security threats with mitigation strategies
 
-inter-Process Communication week5pdf
+
 For your journal: Document pipeline examples with explanations. Explain how pipes 
 enable process cooperation and data flow between programmes.
+
+For your journal: Screenshots showing named pipe communication. Explain the difference 
+between anonymous pipes (|) and named pipes (FIFO), including use cases for each.
 
 ## Week 3
 ### Application Selection for Performance Testing 
@@ -75,8 +78,44 @@ connects via SSH, and collects performance metrics from the server.
 Note:
 All scripts should include line-by-line comments explaining their functionality. All 
 implementations must be demonstrated in your video with live command execution and 
-explanation. 
+explanation.
+
 ## Week 6
+Phase 6: Performance Evaluation and Analysis (Week 6)
+Execute detailed performance testing and analyse operating system behaviour under different 
+workloads.
+Testing Methodology:
+For each application or service, you have chosen, select, monitor and compare the following, 
+where appropriate:
+1. CPU usage
+2. Memory usage
+3. Disk I/O performance
+4. Network performance
+5. System latency
+6. Service response times.
+Testing Scenarios:
+For each application or service, you have chosen, select, monitor and compare the following, 
+where appropriate:
+• Baseline performance testing
+• Application load testing
+• Performance analysis identifying bottlenecks
+• Optimisation testing. Aim to implement and evidence at least two improvements.
+Deliverables (Journal and Video):
+1. Document your approach
+2. Create a performance data table with structured measurements for all applications and 
+metrics
+3. Create performance visualisations including charts and graphs
+4. Capture testing evidence
+5. Conduct network performance analysis documenting latency and throughput
+6. Capture optimisation analysis results describing improvements with quantitative data
 
 ## Week 7
-
+Phase 7: Security Audit and System Evaluation (Week 7)
+Conduct a security audit and evaluate overall system configuration.
+Mandatory Audit Tasks: Security scanning with Lynis, network security assessment with 
+nmap, access control verification, service audit justifying all running services, and system 
+configuration review.
+Deliverables (Journal and Video):
+1. Security Audit Report covering infrastructure security assessment, Lynis scores before and 
+after remediation, network security testing results, SSH security verification, service 
+inventory with justifications, and remaining risk assessment
