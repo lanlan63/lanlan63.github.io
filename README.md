@@ -16,7 +16,7 @@ alternatives
 ![lsbrelease](https://github.com/user-attachments/assets/a5979f32-00d8-4a0b-a3de-ffb3ab99c138)
 
 
-## Week 2
+## Week 2 
 ### Security Planning and Testing Methodology 
 Design a security baseline and performance testing methodology.
 Deliverables (Journal):
@@ -26,7 +26,7 @@ testing approach
 access control, automatic updates, user privilege management, and network security
 3. Threat Model identifying at least 3 specific security threats with mitigation strategies
 
-
+[SS-DONE]
 For your journal: Document pipeline examples with explanations. Explain how pipes 
 enable process cooperation and data flow between programmes.
 
@@ -51,7 +51,7 @@ with justifications for choosing them.
 3. Expected Resource Profiles documenting anticipated resource usage
 4. Monitoring Strategy explaining measurement approach for each application
 
-initial secuity pdf
+initial secuity pdf (WEEK7 LAB)
 
 ## Week 4
 ### Initial System Configuration & Security Implementation 
