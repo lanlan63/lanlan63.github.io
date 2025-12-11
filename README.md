@@ -33,6 +33,10 @@ enable process cooperation and data flow between programmes.
 For your journal: Screenshots showing named pipe communication. Explain the difference 
 between anonymous pipes (|) and named pipes (FIFO), including use cases for each.
 
+For your journal: Signal handling script with explanations. Discuss the importance of 
+signal handling in robust applications.
+
+
 ## Week 3
 ### Application Selection for Performance Testing 
 Select applications representing different workload types for performance evaluation.
