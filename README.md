@@ -36,6 +36,9 @@ between anonymous pipes (|) and named pipes (FIFO), including use cases for each
 For your journal: Signal handling script with explanations. Discuss the importance of 
 signal handling in robust applications.
 
+For your journal: Producer/consumer scripts with explanations. Discuss the challenges of 
+inter-process synchronisation and race conditions
+
 
 ## Week 3
 ### Application Selection for Performance Testing 
