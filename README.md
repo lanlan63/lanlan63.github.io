@@ -61,6 +61,19 @@ To get ssh to work on ubuntu I had to install it first using:
 sudo apt-get install openssh-server
 as it is not automatically installed 
 
+For your journal: Take a screenshot showing key generation. Explain why ed25519 is 
+recommended over RSA for new keys.
+For your journal: Screenshot showing successful passwordless SSH connection with 
+visible command prompt showing username@hostname on both systems.
+For your journal: Include before and after screenshots of the sshd_config file showing the 
+critical security changes. Explain why each setting improves security.
+For your journal: Document your complete firewall ruleset with screenshots. Create a 
+table showing each rule, its purpose, and security justification.
+For your journal: Document the user creation process with screenshots. Explain the 
+principle of least privilege and why using a non-root administrative user is important.
+For your journal: Screenshots demonstrating that all server administration is performed 
+via SSH from the workstation, not from the server console.
+
 initial secuity pdf (WEEK7 LAB)
 
 ## Week 4
