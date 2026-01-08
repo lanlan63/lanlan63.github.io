@@ -75,6 +75,7 @@ For your journal: Screenshots demonstrating that all server administration is pe
 via SSH from the workstation, not from the server console.
 
 initial secuity pdf (WEEK7 LAB)
+https://unix.stackexchange.com/questions/781711/cant-start-sshd-on-ubuntu-server-sshd-service-does-not-exist-despite-clearly
 
 ## Week 4
 ### Initial System Configuration & Security Implementation 
