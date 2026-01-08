@@ -51,6 +51,16 @@ with justifications for choosing them.
 3. Expected Resource Profiles documenting anticipated resource usage
 4. Monitoring Strategy explaining measurement approach for each application
 
+For your journal: Take screenshots showing process listings with visible command 
+prompts. Explain what the different process states (R, S, D, Z, T) represent.
+
+For your journal: Document the process lifecycle with examples. Explain when you would 
+use foreground vs background processes, and the difference between kill and kill -9.
+
+To get ssh to work on ubuntu I had to install it first using:
+sudo apt-get install openssh-server
+as it is not automatically installed 
+
 initial secuity pdf (WEEK7 LAB)
 
 ## Week 4
