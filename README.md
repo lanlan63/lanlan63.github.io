@@ -51,15 +51,35 @@ with justifications for choosing them.
 3. Expected Resource Profiles documenting anticipated resource usage
 4. Monitoring Strategy explaining measurement approach for each application
 
+
+
+
+## Week 4
+### Initial System Configuration & Security Implementation 
+Deploy your server and implement foundational security controls.
+Deliverables (Journal and Video):
+1. Configure SSH with key-based authentication
+2. Configure a firewall permitting SSH from one specific workstation only
+3. Manage users and implement privilege management, creating a non-root administrative 
+user.
+4. SSH Access Evidence showing successful connection screenshots
+5. Configuration Files with before and after comparisons
+6. Firewall Documentation showing complete ruleset
+7. Remote Administration Evidence demonstrating commands executed via SSH
+Administrative Constraint: All server configurations must be performed via SSH from your 
+workstation.
+
 For your journal: Take screenshots showing process listings with visible command 
 prompts. Explain what the different process states (R, S, D, Z, T) represent.
 
 For your journal: Document the process lifecycle with examples. Explain when you would 
 use foreground vs background processes, and the difference between kill and kill -9.
 
-To get ssh to work on ubuntu I had to install it first using:
+
+(To get ssh to work on ubuntu I had to install it first using:
 sudo apt-get install openssh-server
-as it is not automatically installed 
+as it is not automatically installed)
+
 
 For your journal: Take a screenshot showing key generation. Explain why ed25519 is 
 recommended over RSA for new keys.
@@ -77,22 +97,8 @@ via SSH from the workstation, not from the server console.
 initial secuity pdf (WEEK7 LAB)
 https://unix.stackexchange.com/questions/781711/cant-start-sshd-on-ubuntu-server-sshd-service-does-not-exist-despite-clearly
 
-## Week 4
-### Initial System Configuration & Security Implementation 
-Deploy your server and implement foundational security controls.
-Deliverables (Journal and Video):
-1. Configure SSH with key-based authentication
-2. Configure a firewall permitting SSH from one specific workstation only
-3. Manage users and implement privilege management, creating a non-root administrative 
-user.
-4. SSH Access Evidence showing successful connection screenshots
-5. Configuration Files with before and after comparisons
-6. Firewall Documentation showing complete ruleset
-7. Remote Administration Evidence demonstrating commands executed via SSH
-Administrative Constraint: All server configurations must be performed via SSH from your 
-workstation.
 
-week8 lab activity pdf
+
 
 ## Week 5
 ### Advanced Security and Monitoring Infrastructure 
@@ -111,6 +117,12 @@ All scripts should include line-by-line comments explaining their functionality.
 implementations must be demonstrated in your video with live command execution and 
 explanation.
 
+For your journal: Document AppArmor status with screenshots. Explain the structure of 
+an AppArmor profile and the purpose of enforce vs complain modes
+(file content wouldnt display when inputing directory path so i had to manually move to the directory first to view the file contents)
+
+
+week8 lab activity pdf
 ## Week 6
 Phase 6: Performance Evaluation and Analysis (Week 6)
 Execute detailed performance testing and analyse operating system behaviour under different 
