@@ -119,7 +119,9 @@ explanation.
 
 For your journal: Document AppArmor status with screenshots. Explain the structure of 
 an AppArmor profile and the purpose of enforce vs complain modes
-(file content wouldnt display when inputing directory path so i had to manually move to the directory first to view the file contents)
+(file content wouldnt display when inputing directory path so i had to manually move to the directory first to view the file contents, tcpdump is in enforce mode which means policy violations are blocked and logged)
+
+https://linuxcapable.com/how-to-enable-or-disable-apparmor-on-ubuntu-linux/
 
 
 week8 lab activity pdf
