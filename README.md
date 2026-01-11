@@ -227,9 +227,9 @@ https://linuxcapable.com/how-to-enable-or-disable-apparmor-on-ubuntu-linux/
 <img width="569" height="313" alt="Screenshot 2026-01-10 135300" src="https://github.com/user-attachments/assets/9991bea7-f8d8-4c2a-9d01-926996cda23a" />
 <img width="571" height="227" alt="Screenshot 2026-01-10 135215" src="https://github.com/user-attachments/assets/2f623b5e-1a5c-40bc-9560-3c2ffc61417b" />
 <img width="578" height="322" alt="Screenshot 2026-01-10 135159" src="https://github.com/user-attachments/assets/d9871551-7c12-4de3-95a9-fa3d998387ea" />
-<img width="500" height="134" alt="Screenshot 2026-01-10 133251" src="https://github.com/user-attachments/assets/4eae169d-d8c9-4b9d-b6fb-759cbdeb6dee" />
-<img width="517" height="53" alt="Screenshot 2026-01-10 132427" src="https://github.com/user-attachments/assets/4e994135-b776-4186-863b-0e0a4a3652ee" />
-<img width="509" height="128" alt="Screenshot 2026-01-10 132404" src="https://github.com/user-attachments/assets/7f65826b-c0d7-4859-9717-ea88f54e30a9" />
+<img width="491" height="316" alt="Screenshot 2026-01-11 145608" src="https://github.com/user-attachments/assets/f4ecd1e6-ad3a-4668-a33a-6ca379644c32" />
+
+
 <img width="491" height="287" alt="Screenshot 2026-01-09 175438" src="https://github.com/user-attachments/assets/3601c5bd-2b89-4196-ac6a-7a656c5ec0c9" />
 <img width="488" height="107" alt="Screenshot 2026-01-09 171251" src="https://github.com/user-attachments/assets/973129e5-2a14-4635-b0cf-6d6d72912667" />
 <img width="142" height="48" alt="Screenshot 2026-01-09 170800" src="https://github.com/user-attachments/assets/e596bd46-5b2b-4bea-98a6-35e15ced1c05" />
@@ -253,6 +253,9 @@ where appropriate:
 4. Network performance
 5. System latency
 6. Service response times.
+
+
+
 Testing Scenarios:
 For each application or service, you have chosen, select, monitor and compare the following, 
 where appropriate:
@@ -279,3 +282,10 @@ Deliverables (Journal and Video):
 1. Security Audit Report covering infrastructure security assessment, Lynis scores before and 
 after remediation, network security testing results, SSH security verification, service 
 inventory with justifications, and remaining risk assessment
+<img width="404" height="259" alt="Screenshot 2026-01-11 155124" src="https://github.com/user-attachments/assets/3a6568d4-e0d0-4632-974f-01c243a304d2" />
+<img width="406" height="262" alt="Screenshot 2026-01-11 155026" src="https://github.com/user-attachments/assets/5f4719c6-76b1-499e-bfba-86619b61de07" />
+<img width="493" height="41" alt="Screenshot 2026-01-11 154006" src="https://github.com/user-attachments/assets/88c8f7e9-e535-48b4-9cd3-ca8fe78af7dd" />
+<img width="269" height="112" alt="Screenshot 2026-01-11 153430" src="https://github.com/user-attachments/assets/04fe4e1d-03bb-4052-be30-9e71edd953b8" />
+<img width="488" height="241" alt="Screenshot 2026-01-11 153008" src="https://github.com/user-attachments/assets/6d209c23-ab82-4eef-b6f9-4f1b511bd2e6" />
+<img width="488" height="315" alt="Screenshot 2026-01-11 152447" src="https://github.com/user-attachments/assets/6ec3e80b-ce26-4c73-9516-e04f4b7d977c" />
+
