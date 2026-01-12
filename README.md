@@ -18,18 +18,22 @@ Table of contents:
 Between Ubuntu and Arch Linux, I decided to use Ubuntu because I was more familiar with it.
 Both distros use a monolithic type kernal which means you can modify and interact a lot more with the computer, as things such as process managment and IPC is easily acccesable through the kernal.
 ![archdia](https://github.com/user-attachments/assets/04b96675-4da5-4b55-b773-795553eb287c)
+
 Ubuntu is very beginner friendly as it doesnt require a lot of set up to get it working and a good majority of tasks can be done simply with the GUI, while still alllowing free range to do it through the kernal as well, making it good to practice on. Arch LInux requires a lot more CLI use and research with file editing to get it set up and working, but its better for a wider range of customisation options and configuration of your system.
 I used oracle VirtualBox in order to run Ubuntu within a virtual machine. 
 Here I used the command line interface to find out more information about the current system I was using using different commands.
 ![free and free](https://github.com/user-attachments/assets/103d48af-d61d-4c81-9ad0-f253d0bad065)
 > [!NOTE]
-> Uname tells me information about the linux systems I am using with the -a option to display anthing available, df gives me details about the disk space with the -h option to put it in a human readable format, free displays all used and available memory, 
+> Uname tells me information about the linux systems I am using with the -a option to display anthing available, df gives me details about the disk space with the -h option to put it in a human readable format, free displays all used and available memory,
+
 ![df -h](https://github.com/user-attachments/assets/c20836a5-3563-4ecc-86d9-17424986385e)
-> > [!NOTE]
+> [!NOTE]
 > ip is a networking command and the adrr options lets me see the ip adress for my computer.
+
 ![ipadress](https://github.com/user-attachments/assets/3f0ba298-990f-4e67-a7ad-6723999822d3)
-> > > [!NOTE]
+> [!NOTE]
 > hostname shows my domain name system and with the i- options also lets me see my ip adress
+
 ![lsbrelease](https://github.com/user-attachments/assets/a5979f32-00d8-4a0b-a3de-ffb3ab99c138)
 > [!NOTE]
 > lsb_release displays the distro information
@@ -37,15 +41,25 @@ Here I used the command line interface to find out more information about the cu
 
 ## Week 2 
 ### Security Planning and Testing Methodology 
-Design a security baseline and performance testing methodology.
-Deliverables (Journal):
-1. Create a performance testing plan describing your remote monitoring methodology and 
-testing approach
-2. Security Configuration Checklist covering SSH hardening, firewall configuration, mandatory 
-access control, automatic updates, user privilege management, and network security
-3. Threat Model identifying at least 3 specific security threats with mitigation strategies
+Performance testing plan:\
+Load - I want to simulates a real-world load on the distro to see how it performs under stress. 
+Stress - I want to test the distros ability to handle a high load above normal usage levels.
+Endurance - I want to observe the distros behaviour under a large load over a long period.
 
-[SS-DONE]
+Security configuration:\
+- [x] SSH hardening
+- [x] Firewall configuration
+- [x] Mandatory access control
+- [x] Turn on automatic updates
+- [x] Manage user privalege
+- [ ] Network security
+
+Threat modeling:\
+1. Someone pretending to be ssomething else - Mitigation stargetgie =Firewall, SSH hardening
+2. Altering data or stealing private files - User privaledge, mandatory acess control
+3 Malware - Automatic updates, install malware detector
+
+
 For your journal: Document pipeline examples with explanations. Explain how pipes 
 enable process cooperation and data flow between programmes.
 
