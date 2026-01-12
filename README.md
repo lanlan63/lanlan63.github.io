@@ -16,7 +16,7 @@ Table of contents:
 ## Week 1
 ### System Planning and Distribution Selection
 Between Ubuntu and Arch Linux, I decided to use Ubuntu because I was more familiar with it.
-Both distros use a monolithic type kernal which means you can modify and interact a lot more with the computer, as things such as process managment and IPC is easily acccesable through the kernal.
+Both distros use a monolithic type kernal which means you can modify and interact a lot more with the computer, as things such as process managment and IPC is easily acccesable through the kernal.  
 ![archdia](https://github.com/user-attachments/assets/04b96675-4da5-4b55-b773-795553eb287c)
 
 Ubuntu is very beginner friendly as it doesnt require a lot of set up to get it working and a good majority of tasks can be done simply with the GUI, while still alllowing free range to do it through the kernal as well, making it good to practice on. Arch LInux requires a lot more CLI use and research with file editing to get it set up and working, but its better for a wider range of customisation options and configuration of your system.
@@ -41,10 +41,10 @@ Here I used the command line interface to find out more information about the cu
 
 ## Week 2 
 ### Security Planning and Testing Methodology 
-Performance testing plan:\
-Load - I want to simulates a real-world load on the distro to see how it performs under stress. 
-Stress - I want to test the distros ability to handle a high load above normal usage levels.
-Endurance - I want to observe the distros behaviour under a large load over a long period.
+Performance testing plan:  
+Load - I want to simulates a real-world load on the distro to see how it performs under stress.  
+Stress - I want to test the distros ability to handle a high load above normal usage levels.  
+Endurance - I want to observe the distros behaviour under a large load over a long period.  
 
 Security configuration:\
 - [x] SSH hardening
@@ -71,82 +71,59 @@ signal handling in robust applications.
 
 For your journal: Producer/consumer scripts with explanations. Discuss the challenges of 
 inter-process synchronisation and race conditions
-<img width="509" height="171" alt="Screenshot 2025-12-11 181349" src="https://github.com/user-attachments/assets/aca97e9e-22f1-4976-8b1c-c4d356ba26b3" />
-<img width="500" height="198" alt="Screenshot 2025-12-11 181333" src="https://github.com/user-attachments/assets/d9177941-3a81-47fa-a3ba-502763fa85ac" />
-<img width="493" height="365" alt="Screenshot 2025-12-11 181311" src="https://github.com/user-attachments/assets/07809b92-b852-42d7-a6ff-7a807c700dd4" />
-<img width="497" height="362" alt="Screenshot 2025-12-11 181258" src="https://github.com/user-attachments/assets/4394535e-769d-403c-89b1-2ff86d7974c9" />
-<img width="497" height="343" alt="Screenshot 2025-12-11 174533" src="https://github.com/user-attachments/assets/2497ea41-1a8b-4d8a-93dd-6993f6f74ee6" />
-<img width="490" height="338" alt="Screenshot 2025-12-11 174514" src="https://github.com/user-attachments/assets/37c54520-14d6-4fc2-be8a-97612ff39f72" />
-<img width="488" height="341" alt="Screenshot 2025-12-11 173900" src="https://github.com/user-attachments/assets/2fb3a7cc-81d1-43a7-b738-8c35fa2f7a18" />
-<img width="499" height="344" alt="Screenshot 2025-12-11 173835" src="https://github.com/user-attachments/assets/2075a7a5-1d98-47b9-8b75-fd2a1141f5ee" />
-<img width="497" height="96" alt="Screenshot 2025-12-11 171941" src="https://github.com/user-attachments/assets/7d2dc477-fb33-4f80-85f0-fd4006ab5b2c" />
-<img width="505" height="210" alt="Screenshot 2025-12-11 171924" src="https://github.com/user-attachments/assets/89f37fee-27b9-4372-9741-99f728de1124" />
-<img width="496" height="199" alt="Screenshot 2025-12-11 171908" src="https://github.com/user-attachments/assets/10b0eb67-3bba-4188-a891-caa927320c64" />
-<img width="506" height="275" alt="Screenshot 2025-12-11 165341" src="https://github.com/user-attachments/assets/3607739d-50d6-4d00-adaf-6ac6882f82a4" />
-<img width="487" height="183" alt="Screenshot 2025-12-11 164706" src="https://github.com/user-attachments/assets/230417d1-6781-4bb2-bc99-72a1c0bf84c8" />
-<img width="496" height="224" alt="Screenshot 2025-12-11 163520" src="https://github.com/user-attachments/assets/fa5cfcbb-0336-4723-9728-9c3c4eb30c7c" />
-<img width="493" height="120" alt="Screenshot 2025-12-11 163436" src="https://github.com/user-attachments/assets/a7bcd60e-1638-4dd6-8632-ef7b2447510d" />
-<img width="494" height="44" alt="Screenshot 2025-12-11 163347" src="https://github.com/user-attachments/assets/682343a2-f66e-47ee-98fe-4e810623235f" />
-<img width="483" height="104" alt="Screenshot 2025-12-11 163303" src="https://github.com/user-attachments/assets/9e1db7aa-8cb3-4146-b471-6f41a56f215c" />
-<img width="407" height="238" alt="Screenshot 2025-12-11 154248" src="https://github.com/user-attachments/assets/f49e0175-fb79-4327-9af5-efaadf579f33" />
-<img width="419" height="146" alt="Screenshot 2025-11-28 171431" src="https://github.com/user-attachments/assets/60505f26-190a-48b5-8911-a8b3080e24f9" />
-<img width="437" height="92" alt="Screenshot 2025-11-28 164945" src="https://github.com/user-attachments/assets/bff8b0ca-8841-4034-8885-e8293f7559e7" />
-<img width="437" height="70" alt="Screenshot 2025-11-28 164929" src="https://github.com/user-attachments/assets/e523615e-ca1d-4f7c-883f-2372852596d4" />
+![df -h](https://github.com/user-attachments/assets/aca97e9e-22f1-4976-8b1c-c4d356ba26b3)
+![df -h](https://github.com/user-attachments/assets/d9177941-3a81-47fa-a3ba-502763fa85ac)
+![df -h](https://github.com/user-attachments/assets/07809b92-b852-42d7-a6ff-7a807c700dd4)
+![df -h](https://github.com/user-attachments/assets/4394535e-769d-403c-89b1-2ff86d7974c9)
+![df -h](https://github.com/user-attachments/assets/2497ea41-1a8b-4d8a-93dd-6993f6f74ee6)
+![df -h](https://github.com/user-attachments/assets/37c54520-14d6-4fc2-be8a-97612ff39f72)
+![df -h](https://github.com/user-attachments/assets/2fb3a7cc-81d1-43a7-b738-8c35fa2f7a18)
+![df -h](https://github.com/user-attachments/assets/2075a7a5-1d98-47b9-8b75-fd2a1141f5ee)
+![df -h](https://github.com/user-attachments/assets/7d2dc477-fb33-4f80-85f0-fd4006ab5b2c)
+![df -h](https://github.com/user-attachments/assets/89f37fee-27b9-4372-9741-99f728de1124)
+![df -h]("https://github.com/user-attachments/assets/10b0eb67-3bba-4188-a891-caa927320c64)
+![df -h](https://github.com/user-attachments/assets/3607739d-50d6-4d00-adaf-6ac6882f82a4)
+![df -h](https://github.com/user-attachments/assets/230417d1-6781-4bb2-bc99-72a1c0bf84c8)
+![df -h](https://github.com/user-attachments/assets/fa5cfcbb-0336-4723-9728-9c3c4eb30c7c)
+![df -h](https://github.com/user-attachments/assets/a7bcd60e-1638-4dd6-8632-ef7b2447510d)
+![df -h](https://github.com/user-attachments/assets/682343a2-f66e-47ee-98fe-4e810623235f)
+![df -h](https://github.com/user-attachments/assets/9e1db7aa-8cb3-4146-b471-6f41a56f215c)
+![df -h](https://github.com/user-attachments/assets/f49e0175-fb79-4327-9af5-efaadf579f33)
+![df -h](https://github.com/user-attachments/assets/60505f26-190a-48b5-8911-a8b3080e24f9)
+![df -h](https://github.com/user-attachments/assets/bff8b0ca-8841-4034-8885-e8293f7559e7)
+![df -h](https://github.com/user-attachments/assets/e523615e-ca1d-4f7c-883f-2372852596d4)
 
 
 ## Week 3
 ### Application Selection for Performance Testing 
-Select applications representing different workload types for performance evaluation.
-Deliverables (Journal):
-1. Select applications representing different workload types (e.g. CPU-intensive, RAMintensive, I/O-intensive, Network-intensive, and Server applications such as game servers)
-for performance evaluation and create an Application Selection Matrix listing applications 
-with justifications for choosing them.
-2. Installation Documentation with exact commands for SSH-based installation
 3. Expected Resource Profiles documenting anticipated resource usage
 4. Monitoring Strategy explaining measurement approach for each application
 
-1. CPU-Intensive Workloads
-
-stress-ng – Can generate configurable CPU stress by running multiple computation-heavy threads.
+CPU-Intensive Workloads
+stress-ng -Can generate configurable CPU stress by running multiple computation-heavy threads.
 sysbench --test=cpu – Runs prime number calculations to measure raw CPU performance.
-openssl speed – Benchmarks cryptographic operations, stressing CPU integer and floating-point units.
 
-2. Memory-Intensive Workloads
-
+Memory-Intensive Workloads
 stress-ng --vm – Allocates and manipulates large memory blocks to test RAM performance.
 sysbench --test=memory – Measures sequential memory read/write throughput.
-mbw – Simple tool to measure memory bandwidth between CPU and RAM.
 
-3. Disk I/O Workloads
-
-fio – Highly configurable tool for simulating sequential/random read/write patterns.
+Disk and I/O Workloads
+fio – Configurable tool for simulating read/write patterns.
 dd if=/dev/zero of=testfile bs=1G count=1 oflag=dsync – Quick sequential write test.
-bonnie++ – Benchmarks file system performance with mixed read/write workloads.
 
-4. Network Workloads
-
-iperf3 – Measures TCP/UDP throughput between two systems.
+Network Workloads
 netperf – Tests various network performance metrics like latency and bandwidth.
 ping / mtr – For latency and route stability checks.
 
-5. Mixed / Realistic Application Workloads
-
-phoronix-test-suite – Runs a wide range of real-world benchmarks (compilation, compression, gaming, etc.).
-stress-ng with multiple stressors – Simulates CPU, memory, I/O, and network load simultaneously.
-sysbench multi-test mode – Combines CPU, memory, and I/O tests.
-
-
-
-<img width="595" height="323" alt="Screenshot 2026-01-08 180218" src="https://github.com/user-attachments/assets/4b28783f-b91b-4a29-94f8-da2dfa2cc434" />
-
-<img width="308" height="161" alt="Screenshot 2026-01-08 175830" src="https://github.com/user-attachments/assets/1962576a-7dc4-4aec-b068-1f2295449515" />
-<img width="347" height="188" alt="Screenshot 2026-01-08 175450" src="https://github.com/user-attachments/assets/79704fd8-0c3e-4bfe-9a5c-8120cbf6ae83" />
-<img width="602" height="330" alt="Screenshot 2026-01-08 174914" src="https://github.com/user-attachments/assets/10d0853c-ba14-4b9d-9492-b5bba7909b02" />
-<img width="598" height="329" alt="Screenshot 2026-01-08 174830" src="https://github.com/user-attachments/assets/1b752c9c-e01c-4f8b-b7f7-c0bc397175ce" />
-<img width="413" height="331" alt="Screenshot 2026-01-08 174522" src="https://github.com/user-attachments/assets/ec9d304e-448c-4cf5-8f08-ff84bcbe53c0" />
-<img width="413" height="335" alt="Screenshot 2026-01-08 174417" src="https://github.com/user-attachments/assets/9ae3f0dc-89ed-4ede-8462-378d3e98d3c3" />
-<img width="409" height="340" alt="Screenshot 2026-01-08 174314" src="https://github.com/user-attachments/assets/e8657cdd-3d44-400d-8414-697ad2fd45e7" />
-<img width="413" height="325" alt="Screenshot 2026-01-08 174003" src="https://github.com/user-attachments/assets/cf2d3ac5-c176-4cb1-b4e5-308510c5ecf5" />
+![df -h](https://github.com/user-attachments/assets/4b28783f-b91b-4a29-94f8-da2dfa2cc434")
+![df -h](https://github.com/user-attachments/assets/1962576a-7dc4-4aec-b068-1f2295449515)
+![df -h](https://github.com/user-attachments/assets/79704fd8-0c3e-4bfe-9a5c-8120cbf6ae83)
+![df -h](https://github.com/user-attachments/assets/10d0853c-ba14-4b9d-9492-b5bba7909b02)
+![df -h](https://github.com/user-attachments/assets/1b752c9c-e01c-4f8b-b7f7-c0bc397175ce)
+![df -h](https://github.com/user-attachments/assets/ec9d304e-448c-4cf5-8f08-ff84bcbe53c0)
+![df -h](https://github.com/user-attachments/assets/9ae3f0dc-89ed-4ede-8462-378d3e98d3c3)
+![df -h](https://github.com/user-attachments/assets/e8657cdd-3d44-400d-8414-697ad2fd45e7)
+![df -h](https://github.com/user-attachments/assets/cf2d3ac5-c176-4cb1-b4e5-308510c5ecf5)
 
 
 
