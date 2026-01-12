@@ -1,6 +1,6 @@
 # Operating Systems Journal 
 Project overview:
-This journal documents 7 weeks of coursework centered around the implementation of my chosen linuz distrobution (Ubuntu) and what I did to configure, and enhance its security alongside evaluating its performance. 
+This journal documents 7 weeks of coursework centered around the implementation of my chosen linux distrobution (Ubuntu) and what I did to configure, and enhance its security alongside evaluating its performance. 
 
 Table of contents:
 [Week 1](#week-1)
@@ -46,7 +46,7 @@ Load - I want to simulates a real-world load on the distro to see how it perform
 Stress - I want to test the distros ability to handle a high load above normal usage levels.  
 Endurance - I want to observe the distros behaviour under a large load over a long period.  
 
-Security configuration:\
+Security configuration:  
 - [x] SSH hardening
 - [x] Firewall configuration
 - [x] Mandatory access control
@@ -54,7 +54,7 @@ Security configuration:\
 - [x] Manage user privalege
 - [ ] Network security
 
-Threat modeling:\
+Threat modeling:  
 1. Someone pretending to be ssomething else - Mitigation stargetgie =Firewall, SSH hardening
 2. Altering data or stealing private files - User privaledge, mandatory acess control
 3 Malware - Automatic updates, install malware detector
@@ -129,8 +129,7 @@ ping / mtr – For latency and route stability checks.
 
 ## Week 4
 ### Initial System Configuration & Security Implementation 
-Deploy your server and implement foundational security controls.
-Deliverables (Journal and Video):
+
 1. Configure SSH with key-based authentication
 2. Configure a firewall permitting SSH from one specific workstation only
 3. Manage users and implement privilege management, creating a non-root administrative 
@@ -167,22 +166,20 @@ principle of least privilege and why using a non-root administrative user is imp
 For your journal: Screenshots demonstrating that all server administration is performed 
 via SSH from the workstation, not from the server console.
 
-initial secuity pdf (WEEK7 LAB)
-https://unix.stackexchange.com/questions/781711/cant-start-sshd-on-ubuntu-server-sshd-service-does-not-exist-despite-clearly
-<img width="596" height="277" alt="Screenshot 2026-01-08 194429" src="https://github.com/user-attachments/assets/be8784f8-bd26-4b07-8bdf-b27a9510f659" />
-<img width="434" height="263" alt="Screenshot 2026-01-08 194414" src="https://github.com/user-attachments/assets/b96ad45a-45ee-4613-8f56-1d6a9894a6af" />
-<img width="586" height="301" alt="Screenshot 2026-01-08 194340" src="https://github.com/user-attachments/assets/ba713127-3d3c-44f7-82d5-f3e257f66144" />
-<img width="556" height="316" alt="Screenshot 2026-01-08 193300" src="https://github.com/user-attachments/assets/77acfe99-3da6-4653-86af-0eafb09e759a" />
-<img width="504" height="316" alt="Screenshot 2026-01-08 193123" src="https://github.com/user-attachments/assets/89d648bf-8024-45d0-96e4-1aa5c1e75494" />
-<img width="454" height="73" alt="Screenshot 2026-01-08 192616" src="https://github.com/user-attachments/assets/b3a5d27e-1a3b-4844-a952-eb4e0b19408c" />
+![df -h](https://github.com/user-attachments/assets/be8784f8-bd26-4b07-8bdf-b27a9510f659)
+![df -h](https://github.com/user-attachments/assets/b96ad45a-45ee-4613-8f56-1d6a9894a6af)
+![df -h](https://github.com/user-attachments/assets/ba713127-3d3c-44f7-82d5-f3e257f66144)
+![df -h](https://github.com/user-attachments/assets/77acfe99-3da6-4653-86af-0eafb09e759a)
+![df -h](https://github.com/user-attachments/assets/89d648bf-8024-45d0-96e4-1aa5c1e75494)
+![df -h](https://github.com/user-attachments/assets/b3a5d27e-1a3b-4844-a952-eb4e0b19408c)
 
-<img width="502" height="82" alt="Screenshot 2026-01-08 192021" src="https://github.com/user-attachments/assets/836649d8-71b4-4674-b91a-4a9afc6b835c" />
-<img width="596" height="343" alt="Screenshot 2026-01-08 192006" src="https://github.com/user-attachments/assets/a5502a1c-e998-4827-bab5-b14dff422ddf" />
-<img width="538" height="314" alt="Screenshot 2026-01-08 191702" src="https://github.com/user-attachments/assets/165fe928-2cee-46ab-bbfa-ce421a38863d" />
-<img width="547" height="230" alt="Screenshot 2026-01-08 191519" src="https://github.com/user-attachments/assets/8a7bd48f-0ba0-4e66-a15e-4d56659f4d89" />
-<img width="451" height="179" alt="Screenshot 2026-01-08 185812" src="https://github.com/user-attachments/assets/b70c7d5d-a476-48d9-a10d-27246b0cceb4" />
-<img width="595" height="245" alt="Screenshot 2026-01-08 185513" src="https://github.com/user-attachments/assets/a6c6732c-bc53-4dc3-9437-a8f45749def1" />
-<img width="595" height="329" alt="Screenshot 2026-01-08 181230" src="https://github.com/user-attachments/assets/8eba4f5e-3e8b-4cc1-b642-e6e9641755fc" />
+![df -h](https://github.com/user-attachments/assets/836649d8-71b4-4674-b91a-4a9afc6b835c)
+![df -h](https://github.com/user-attachments/assets/a5502a1c-e998-4827-bab5-b14dff422ddf)
+![df -h](https://github.com/user-attachments/assets/165fe928-2cee-46ab-bbfa-ce421a38863d)
+![df -h](https://github.com/user-attachments/assets/8a7bd48f-0ba0-4e66-a15e-4d56659f4d89)
+![df -h](https://github.com/user-attachments/assets/b70c7d5d-a476-48d9-a10d-27246b0cceb4)
+![df -h](https://github.com/user-attachments/assets/a6c6732c-bc53-4dc3-9437-a8f45749def1)
+![df -h](https://github.com/user-attachments/assets/8eba4f5e-3e8b-4cc1-b642-e6e9641755fc)
 
 
 
@@ -199,16 +196,11 @@ track and report on access control settings.
 (executed via SSH) and verifies all security configurations from Phases 4 and 5.
 5. Create a remote monitoring script (`monitor-server.sh`) that runs on your workstation, 
 connects via SSH, and collects performance metrics from the server.
-Note:
-All scripts should include line-by-line comments explaining their functionality. All 
-implementations must be demonstrated in your video with live command execution and 
-explanation.
 
 For your journal: Document AppArmor status with screenshots. Explain the structure of 
 an AppArmor profile and the purpose of enforce vs complain modes
 (file content wouldnt display when inputing directory path so i had to manually move to the directory first to view the file contents, tcpdump is in enforce mode which means policy violations are blocked and logged)
 
-https://linuxcapable.com/how-to-enable-or-disable-apparmor-on-ubuntu-linux/
 <img width="492" height="314" alt="Screenshot 2026-01-11 135707" src="https://github.com/user-attachments/assets/cd03f638-ed48-4924-a21c-17bc61352b50" />
 <img width="484" height="314" alt="Screenshot 2026-01-11 135645" src="https://github.com/user-attachments/assets/eb7f1f00-6ecc-465c-8523-d17163a61f3b" />
 <img width="488" height="315" alt="Screenshot 2026-01-11 135618" src="https://github.com/user-attachments/assets/4ee1d6f6-57a7-421e-8c34-05cd5a5f0d1a" />
@@ -237,8 +229,6 @@ https://linuxcapable.com/how-to-enable-or-disable-apparmor-on-ubuntu-linux/
 <img width="571" height="227" alt="Screenshot 2026-01-10 135215" src="https://github.com/user-attachments/assets/2f623b5e-1a5c-40bc-9560-3c2ffc61417b" />
 <img width="578" height="322" alt="Screenshot 2026-01-10 135159" src="https://github.com/user-attachments/assets/d9871551-7c12-4de3-95a9-fa3d998387ea" />
 <img width="491" height="316" alt="Screenshot 2026-01-11 145608" src="https://github.com/user-attachments/assets/f4ecd1e6-ad3a-4668-a33a-6ca379644c32" />
-
-
 <img width="491" height="287" alt="Screenshot 2026-01-09 175438" src="https://github.com/user-attachments/assets/3601c5bd-2b89-4196-ac6a-7a656c5ec0c9" />
 <img width="488" height="107" alt="Screenshot 2026-01-09 171251" src="https://github.com/user-attachments/assets/973129e5-2a14-4635-b0cf-6d6d72912667" />
 <img width="142" height="48" alt="Screenshot 2026-01-09 170800" src="https://github.com/user-attachments/assets/e596bd46-5b2b-4bea-98a6-35e15ced1c05" />
@@ -247,8 +237,6 @@ https://linuxcapable.com/how-to-enable-or-disable-apparmor-on-ubuntu-linux/
 <img width="575" height="330" alt="Screenshot 2026-01-09 164909" src="https://github.com/user-attachments/assets/bee9bd7c-1f0d-4532-8671-ce0d80040658" />
 <img width="488" height="313" alt="Screenshot 2026-01-11 135726" src="https://github.com/user-attachments/assets/1fe35c1c-6480-4edc-b030-3d3b90078b5c" />
 
-
-week8 lab activity pdf
 ## Week 6
 Phase 6: Performance Evaluation and Analysis (Week 6)
 Execute detailed performance testing and analyse operating system behaviour under different 
