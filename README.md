@@ -137,8 +137,7 @@ To get ssh to work on ubuntu I had to install it first using (`sudo apt-get inst
 
 ![df -h](https://github.com/user-attachments/assets/a6c6732c-bc53-4dc3-9437-a8f45749def1)
 ![df -h](https://github.com/user-attachments/assets/b70c7d5d-a476-48d9-a10d-27246b0cceb4)
-> [!NOTE]
-> Successful passwordless SSH connection 
+^Successful passwordless SSH connection 
 
 ![df -h](https://github.com/user-attachments/assets/b3a5d27e-1a3b-4844-a952-eb4e0b19408c)
 ![df -h](https://github.com/user-attachments/assets/836649d8-71b4-4674-b91a-4a9afc6b835c)
@@ -159,21 +158,10 @@ To get ssh to work on ubuntu I had to install it first using (`sudo apt-get inst
 ![df -h](https://github.com/user-attachments/assets/ba713127-3d3c-44f7-82d5-f3e257f66144)
 ![df -h](https://github.com/user-attachments/assets/be8784f8-bd26-4b07-8bdf-b27a9510f659)
 ![df -h](https://github.com/user-attachments/assets/b96ad45a-45ee-4613-8f56-1d6a9894a6af)
-> [!NOTE]
-> Srver administration is performed via SSH from the workstation.
+^Server administration is performed via SSH from the workstation.
 
 ## Week 5
 ### Advanced Security and Monitoring Infrastructure 
-
-Deliverables 
-1. Implement Access Control using SELinux or AppArmor, with documentation showing how to 
-track and report on access control settings.
-2. Configure automatic security updates with evidence of implementation
-3. Configure fail2ban for enhanced intrusion detection
-4. Create a security baseline verification script (`security-baseline.sh`) that runs on the server
-(executed via SSH) and verifies all security configurations from Phases 4 and 5.
-5. Create a remote monitoring script (`monitor-server.sh`) that runs on the workstation, 
-connects via SSH, and collects performance metrics from the server.
 
 Document AppArmor status with screenshots. Explain the structure of 
 an AppArmor profile and the purpose of enforce vs complain modes
