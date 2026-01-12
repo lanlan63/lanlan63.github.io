@@ -238,7 +238,7 @@ an AppArmor profile and the purpose of enforce vs complain modes
 <img width="488" height="313" alt="Screenshot 2026-01-11 135726" src="https://github.com/user-attachments/assets/1fe35c1c-6480-4edc-b030-3d3b90078b5c" />
 
 ## Week 6
-Phase 6: Performance Evaluation and Analysis (Week 6)
+### Performance Evaluation and Analysis 
 Execute detailed performance testing and analyse operating system behaviour under different 
 workloads.
 Testing Methodology:
@@ -270,7 +270,7 @@ metrics
 6. Capture optimisation analysis results describing improvements with quantitative data
 
 ## Week 7
-Phase 7: Security Audit and System Evaluation (Week 7)
+### Security Audit and System Evaluation 
 Conduct a security audit and evaluate overall system configuration.
 Mandatory Audit Tasks: Security scanning with Lynis, network security assessment with 
 nmap, access control verification, service audit justifying all running services, and system 
