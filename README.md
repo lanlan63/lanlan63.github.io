@@ -1,8 +1,8 @@
-# Operating Systems Journal 
-Project overview:
+# Operating Systems Coursework (Journal)
+## Project overview:
 This journal documents 7 weeks of coursework centered around the implementation of my chosen linux distrobution (Ubuntu) and what I did to configure, and enhance its security alongside evaluating its performance. 
 
-Table of contents:
+## Table of contents:
 [Week 1](#week-1)
 [Week 2](#week-2)
 [Week 3](#week-3)
@@ -138,13 +138,12 @@ user.
 5. Configuration Files with before and after comparisons
 6. Firewall Documentation showing complete ruleset
 7. Remote Administration Evidence demonstrating commands executed via SSH
-Administrative Constraint: All server configurations must be performed via SSH from your 
-workstation.
 
-For your journal: Take screenshots showing process listings with visible command 
+
+Take screenshots showing process listings with visible command 
 prompts. Explain what the different process states (R, S, D, Z, T) represent.
 
-For your journal: Document the process lifecycle with examples. Explain when you would 
+Document the process lifecycle with examples. Explain when you would 
 use foreground vs background processes, and the difference between kill and kill -9.
 
 
@@ -153,17 +152,22 @@ sudo apt-get install openssh-server
 as it is not automatically installed)
 
 
-For your journal: Take a screenshot showing key generation. Explain why ed25519 is 
+Take a screenshot showing key generation. Explain why ed25519 is 
 recommended over RSA for new keys.
-For your journal: Screenshot showing successful passwordless SSH connection with 
+
+Screenshot showing successful passwordless SSH connection with 
 visible command prompt showing username@hostname on both systems.
-For your journal: Include before and after screenshots of the sshd_config file showing the 
+
+Include before and after screenshots of the sshd_config file showing the 
 critical security changes. Explain why each setting improves security.
-For your journal: Document your complete firewall ruleset with screenshots. Create a 
+
+Document your complete firewall ruleset with screenshots. Create a 
 table showing each rule, its purpose, and security justification.
-For your journal: Document the user creation process with screenshots. Explain the 
+
+Document the user creation process with screenshots. Explain the 
 principle of least privilege and why using a non-root administrative user is important.
-For your journal: Screenshots demonstrating that all server administration is performed 
+
+Screenshots demonstrating that all server administration is performed 
 via SSH from the workstation, not from the server console.
 
 ![df -h](https://github.com/user-attachments/assets/be8784f8-bd26-4b07-8bdf-b27a9510f659)
@@ -183,11 +187,10 @@ via SSH from the workstation, not from the server console.
 
 
 
-
 ## Week 5
 ### Advanced Security and Monitoring Infrastructure 
-Implement advanced security controls and develop monitoring capabilities.
-Deliverables (Journal and Video):
+
+Deliverables 
 1. Implement Access Control using SELinux or AppArmor, with documentation showing how to 
 track and report on access control settings.
 2. Configure automatic security updates with evidence of implementation
@@ -197,9 +200,10 @@ track and report on access control settings.
 5. Create a remote monitoring script (`monitor-server.sh`) that runs on your workstation, 
 connects via SSH, and collects performance metrics from the server.
 
-For your journal: Document AppArmor status with screenshots. Explain the structure of 
+Document AppArmor status with screenshots. Explain the structure of 
 an AppArmor profile and the purpose of enforce vs complain modes
-(file content wouldnt display when inputing directory path so i had to manually move to the directory first to view the file contents, tcpdump is in enforce mode which means policy violations are blocked and logged)
+
+(file content wouldn't display when inputing directory path so I had to manually move to the directory first to view the file contents | tcpdump is in enforce mode which means policy violations are blocked and logged)
 
 <img width="492" height="314" alt="Screenshot 2026-01-11 135707" src="https://github.com/user-attachments/assets/cd03f638-ed48-4924-a21c-17bc61352b50" />
 <img width="484" height="314" alt="Screenshot 2026-01-11 135645" src="https://github.com/user-attachments/assets/eb7f1f00-6ecc-465c-8523-d17163a61f3b" />
@@ -239,11 +243,8 @@ an AppArmor profile and the purpose of enforce vs complain modes
 
 ## Week 6
 ### Performance Evaluation and Analysis 
-Execute detailed performance testing and analyse operating system behaviour under different 
-workloads.
+
 Testing Methodology:
-For each application or service, you have chosen, select, monitor and compare the following, 
-where appropriate:
 1. CPU usage
 2. Memory usage
 3. Disk I/O performance
@@ -254,13 +255,12 @@ where appropriate:
 
 
 Testing Scenarios:
-For each application or service, you have chosen, select, monitor and compare the following, 
-where appropriate:
 • Baseline performance testing
 • Application load testing
 • Performance analysis identifying bottlenecks
 • Optimisation testing. Aim to implement and evidence at least two improvements.
-Deliverables (Journal and Video):
+
+Deliverables
 1. Document your approach
 2. Create a performance data table with structured measurements for all applications and 
 metrics
@@ -271,12 +271,12 @@ metrics
 
 ## Week 7
 ### Security Audit and System Evaluation 
-Conduct a security audit and evaluate overall system configuration.
-Mandatory Audit Tasks: Security scanning with Lynis, network security assessment with 
+
+Audit Tasks: Security scanning with Lynis, network security assessment with 
 nmap, access control verification, service audit justifying all running services, and system 
 configuration review.
-Deliverables (Journal and Video):
-1. Security Audit Report covering infrastructure security assessment, Lynis scores before and 
+
+2.Security Audit Report covering infrastructure security assessment, Lynis scores before and 
 after remediation, network security testing results, SSH security verification, service 
 inventory with justifications, and remaining risk assessment
 <img width="404" height="259" alt="Screenshot 2026-01-11 155124" src="https://github.com/user-attachments/assets/3a6568d4-e0d0-4632-974f-01c243a304d2" />
