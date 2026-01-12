@@ -57,7 +57,7 @@ Security configuration:
 Threat modeling:  
 1. Someone pretending to be ssomething else - Mitigation stargetgie =Firewall, SSH hardening
 2. Altering data or stealing private files - User privaledge, mandatory acess control
-3 Malware - Automatic updates, install malware detector
+3. Malware - Automatic updates, install malware detector
 
 ![df -h](https://github.com/user-attachments/assets/aca97e9e-22f1-4976-8b1c-c4d356ba26b3)
 ![df -h](https://github.com/user-attachments/assets/d9177941-3a81-47fa-a3ba-502763fa85ac)
