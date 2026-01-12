@@ -1,4 +1,4 @@
-# Operating Systems Coursework (Journal)
+# Operating Systems Coursework (Journal) - Leilani
 ## Project overview:
 This journal documents 7 weeks of coursework centered around the implementation of my chosen linux distrobution (Ubuntu) and what I did to configure, and enhance its security alongside evaluating its performance. 
 
