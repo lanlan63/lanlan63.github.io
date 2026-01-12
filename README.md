@@ -59,18 +59,6 @@ Threat modeling:
 2. Altering data or stealing private files - User privaledge, mandatory acess control
 3 Malware - Automatic updates, install malware detector
 
-
-Document pipeline examples with explanations. Explain how pipes 
-enable process cooperation and data flow between programmes.
-
-Screenshots showing named pipe communication. Explain the difference 
-between anonymous pipes (|) and named pipes (FIFO), including use cases for each.
-
-Signal handling script with explanations. Discuss the importance of 
-signal handling in robust applications.
-
-Producer/consumer scripts with explanations. Discuss the challenges of 
-inter-process synchronisation and race conditions
 ![df -h](https://github.com/user-attachments/assets/aca97e9e-22f1-4976-8b1c-c4d356ba26b3)
 ![df -h](https://github.com/user-attachments/assets/d9177941-3a81-47fa-a3ba-502763fa85ac)
 ![df -h](https://github.com/user-attachments/assets/07809b92-b852-42d7-a6ff-7a807c700dd4)
