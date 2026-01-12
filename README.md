@@ -130,33 +130,15 @@ ping / mtr – For latency and route stability checks.
 ## Week 4
 ### Initial System Configuration & Security Implementation 
 
-1. Configure SSH with key-based authentication
-2. Configure a firewall permitting SSH from one specific workstation only
-3. Manage users and implement privilege management, creating a non-root administrative 
-user.
-4. SSH Access Evidence showing successful connection screenshots
-5. Configuration Files with before and after comparisons
-6. Firewall Documentation showing complete ruleset
-7. Remote Administration Evidence demonstrating commands executed via SSH
+To get ssh to work on ubuntu I had to install it first using (`sudo apt-get install openssh-server`) as it is not automatically installed onto the distro.  
+![df -h](https://github.com/user-attachments/assets/8eba4f5e-3e8b-4cc1-b642-e6e9641755fc)
+> [!NOTE]
+> ed25519 is recommended over RSA because it has better security due complex algorithms and being designed with security in mind.
 
-
-Take screenshots showing process listings with visible command 
-prompts. Explain what the different process states (R, S, D, Z, T) represent.
-
-Document the process lifecycle with examples. Explain when you would 
-use foreground vs background processes, and the difference between kill and kill -9.
-
-
-(To get ssh to work on ubuntu I had to install it first using:
-sudo apt-get install openssh-server
-as it is not automatically installed)
-
-
-Take a screenshot showing key generation. Explain why ed25519 is 
-recommended over RSA for new keys.
-
-Screenshot showing successful passwordless SSH connection with 
-visible command prompt showing username@hostname on both systems.
+![df -h](https://github.com/user-attachments/assets/a6c6732c-bc53-4dc3-9437-a8f45749def1)
+![df -h](https://github.com/user-attachments/assets/b70c7d5d-a476-48d9-a10d-27246b0cceb4)
+> [!NOTE]
+> Successful passwordless SSH connection 
 
 Include before and after screenshots of the sshd_config file showing the 
 critical security changes. Explain why each setting improves security.
@@ -166,9 +148,6 @@ table showing each rule, its purpose, and security justification.
 
 Document the user creation process with screenshots. Explain the 
 principle of least privilege and why using a non-root administrative user is important.
-
-Screenshots demonstrating that all server administration is performed 
-via SSH from the workstation, not from the server console.
 
 ![df -h](https://github.com/user-attachments/assets/be8784f8-bd26-4b07-8bdf-b27a9510f659)
 ![df -h](https://github.com/user-attachments/assets/b96ad45a-45ee-4613-8f56-1d6a9894a6af)
@@ -181,9 +160,8 @@ via SSH from the workstation, not from the server console.
 ![df -h](https://github.com/user-attachments/assets/a5502a1c-e998-4827-bab5-b14dff422ddf)
 ![df -h](https://github.com/user-attachments/assets/165fe928-2cee-46ab-bbfa-ce421a38863d)
 ![df -h](https://github.com/user-attachments/assets/8a7bd48f-0ba0-4e66-a15e-4d56659f4d89)
-![df -h](https://github.com/user-attachments/assets/b70c7d5d-a476-48d9-a10d-27246b0cceb4)
-![df -h](https://github.com/user-attachments/assets/a6c6732c-bc53-4dc3-9437-a8f45749def1)
-![df -h](https://github.com/user-attachments/assets/8eba4f5e-3e8b-4cc1-b642-e6e9641755fc)
+
+
 
 
 
@@ -197,7 +175,7 @@ track and report on access control settings.
 3. Configure fail2ban for enhanced intrusion detection
 4. Create a security baseline verification script (`security-baseline.sh`) that runs on the server
 (executed via SSH) and verifies all security configurations from Phases 4 and 5.
-5. Create a remote monitoring script (`monitor-server.sh`) that runs on your workstation, 
+5. Create a remote monitoring script (`monitor-server.sh`) that runs on the workstation, 
 connects via SSH, and collects performance metrics from the server.
 
 Document AppArmor status with screenshots. Explain the structure of 
