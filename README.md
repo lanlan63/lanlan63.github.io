@@ -140,30 +140,27 @@ To get ssh to work on ubuntu I had to install it first using (`sudo apt-get inst
 > [!NOTE]
 > Successful passwordless SSH connection 
 
-Include before and after screenshots of the sshd_config file showing the 
-critical security changes. Explain why each setting improves security.
-
-Document your complete firewall ruleset with screenshots. Create a 
-table showing each rule, its purpose, and security justification.
-
-Document the user creation process with screenshots. Explain the 
-principle of least privilege and why using a non-root administrative user is important.
-
-![df -h](https://github.com/user-attachments/assets/be8784f8-bd26-4b07-8bdf-b27a9510f659)
-![df -h](https://github.com/user-attachments/assets/b96ad45a-45ee-4613-8f56-1d6a9894a6af)
-![df -h](https://github.com/user-attachments/assets/ba713127-3d3c-44f7-82d5-f3e257f66144)
-![df -h](https://github.com/user-attachments/assets/77acfe99-3da6-4653-86af-0eafb09e759a)
-![df -h](https://github.com/user-attachments/assets/89d648bf-8024-45d0-96e4-1aa5c1e75494)
 ![df -h](https://github.com/user-attachments/assets/b3a5d27e-1a3b-4844-a952-eb4e0b19408c)
-
 ![df -h](https://github.com/user-attachments/assets/836649d8-71b4-4674-b91a-4a9afc6b835c)
 ![df -h](https://github.com/user-attachments/assets/a5502a1c-e998-4827-bab5-b14dff422ddf)
-![df -h](https://github.com/user-attachments/assets/165fe928-2cee-46ab-bbfa-ce421a38863d)
+> [!NOTE]
+> No root login so if someone is able to get into the root user they still cannot access ssh without passkey, password would be the same for the user so not allowing it prevents anyone who gains access to the password from accessing ssh as well.
+> 
 ![df -h](https://github.com/user-attachments/assets/8a7bd48f-0ba0-4e66-a15e-4d56659f4d89)
+![df -h](https://github.com/user-attachments/assets/165fe928-2cee-46ab-bbfa-ce421a38863d)
+> [!NOTE]
+> (`sudo ufw allow from workstation_ip to any port 22`) --only allows the input ip to connect to ssh, preventing brute force attacks.
 
+![df -h](https://github.com/user-attachments/assets/77acfe99-3da6-4653-86af-0eafb09e759a)
+![df -h](https://github.com/user-attachments/assets/89d648bf-8024-45d0-96e4-1aa5c1e75494)
+> [!NOTE]
+> The principle of least privalege only gives users privileges which are essential to perform their task, and running nonn root user limits tye change of accidental root commands that break something in the system
 
-
-
+![df -h](https://github.com/user-attachments/assets/ba713127-3d3c-44f7-82d5-f3e257f66144)
+![df -h](https://github.com/user-attachments/assets/be8784f8-bd26-4b07-8bdf-b27a9510f659)
+![df -h](https://github.com/user-attachments/assets/b96ad45a-45ee-4613-8f56-1d6a9894a6af)
+> [!NOTE]
+> Srver administration is performed via SSH from the workstation.
 
 ## Week 5
 ### Advanced Security and Monitoring Infrastructure 
