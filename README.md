@@ -137,14 +137,15 @@ To get ssh to work on ubuntu I had to install it first using (`sudo apt-get inst
 
 ![df -h](https://github.com/user-attachments/assets/a6c6732c-bc53-4dc3-9437-a8f45749def1)
 ![df -h](https://github.com/user-attachments/assets/b70c7d5d-a476-48d9-a10d-27246b0cceb4)
-^Successful passwordless SSH connection 
+> [!NOTE]
+> Successful passwordless SSH connection 
 
 ![df -h](https://github.com/user-attachments/assets/b3a5d27e-1a3b-4844-a952-eb4e0b19408c)
 ![df -h](https://github.com/user-attachments/assets/836649d8-71b4-4674-b91a-4a9afc6b835c)
 ![df -h](https://github.com/user-attachments/assets/a5502a1c-e998-4827-bab5-b14dff422ddf)
 > [!NOTE]
 > No root login so if someone is able to get into the root user they still cannot access ssh without passkey, password would be the same for the user so not allowing it prevents anyone who gains access to the password from accessing ssh as well.
-> 
+
 ![df -h](https://github.com/user-attachments/assets/8a7bd48f-0ba0-4e66-a15e-4d56659f4d89)
 ![df -h](https://github.com/user-attachments/assets/165fe928-2cee-46ab-bbfa-ce421a38863d)
 > [!NOTE]
@@ -158,7 +159,8 @@ To get ssh to work on ubuntu I had to install it first using (`sudo apt-get inst
 ![df -h](https://github.com/user-attachments/assets/ba713127-3d3c-44f7-82d5-f3e257f66144)
 ![df -h](https://github.com/user-attachments/assets/be8784f8-bd26-4b07-8bdf-b27a9510f659)
 ![df -h](https://github.com/user-attachments/assets/b96ad45a-45ee-4613-8f56-1d6a9894a6af)
-^Server administration is performed via SSH from the workstation.
+> [!NOTE]
+> Server administration is performed via SSH from the workstation.
 
 ## Week 5
 ### Advanced Security and Monitoring Infrastructure 
@@ -167,6 +169,10 @@ Document AppArmor status with screenshots. Explain the structure of
 an AppArmor profile and the purpose of enforce vs complain modes
 
 (file content wouldn't display when inputing directory path so I had to manually move to the directory first to view the file contents | tcpdump is in enforce mode which means policy violations are blocked and logged)
+
+
+
+
 
 <img width="492" height="314" alt="Screenshot 2026-01-11 135707" src="https://github.com/user-attachments/assets/cd03f638-ed48-4924-a21c-17bc61352b50" />
 <img width="484" height="314" alt="Screenshot 2026-01-11 135645" src="https://github.com/user-attachments/assets/eb7f1f00-6ecc-465c-8523-d17163a61f3b" />
@@ -177,31 +183,45 @@ an AppArmor profile and the purpose of enforce vs complain modes
 <img width="489" height="320" alt="Screenshot 2026-01-11 135046" src="https://github.com/user-attachments/assets/5a2324a9-0b02-4f02-be3e-d5a19b0d899a" />
 <img width="488" height="316" alt="Screenshot 2026-01-11 135031" src="https://github.com/user-attachments/assets/e1daf0b3-1b41-4107-b835-8bb657c49cef" />
 <img width="494" height="302" alt="Screenshot 2026-01-11 134950" src="https://github.com/user-attachments/assets/d4e89c2b-05d2-4d27-a25d-de54523137eb" />
-<img width="610" height="365" alt="Screenshot 2026-01-10 152229" src="https://github.com/user-attachments/assets/f4f5ec39-e689-43fb-b582-0f24f7b030b0" />
-<img width="606" height="361" alt="Screenshot 2026-01-10 152215" src="https://github.com/user-attachments/assets/1cbc3fdc-042b-4cb4-940e-932ebef32ef9" />
-<img width="604" height="361" alt="Screenshot 2026-01-10 152204" src="https://github.com/user-attachments/assets/ad7d1c60-ab07-4e88-81e3-fa37549ce795" />
-<img width="602" height="359" alt="Screenshot 2026-01-10 152152" src="https://github.com/user-attachments/assets/b5773fe1-d6a0-4c9f-ba17-358ca087192d" />
-<img width="608" height="361" alt="Screenshot 2026-01-10 152140" src="https://github.com/user-attachments/assets/185eb817-029a-41c0-b441-70556fffc50e" />
-<img width="602" height="358" alt="Screenshot 2026-01-10 152127" src="https://github.com/user-attachments/assets/55065ff1-9e2a-4fd0-aeff-e93bb8a169b1" />
-<img width="608" height="362" alt="Screenshot 2026-01-10 152103" src="https://github.com/user-attachments/assets/064aedff-1997-420b-9173-55cd40a436a6" />
-<img width="610" height="245" alt="Screenshot 2026-01-10 151952" src="https://github.com/user-attachments/assets/8d1edcbf-e4af-4059-a4bc-740269773470" />
-<img width="606" height="345" alt="Screenshot 2026-01-10 151938" src="https://github.com/user-attachments/assets/8ee89dc3-75d5-4d5a-822c-7a1628389f26" />
-<img width="610" height="364" alt="Screenshot 2026-01-10 151922" src="https://github.com/user-attachments/assets/c7163486-d674-4354-a83d-e477c50b4de0" />
-<img width="600" height="343" alt="Screenshot 2026-01-10 151910" src="https://github.com/user-attachments/assets/00d3b3b9-3943-434d-9dd9-849922239ddb" />
-<img width="494" height="307" alt="Screenshot 2026-01-10 142508" src="https://github.com/user-attachments/assets/4f2b4ad1-1d6d-4204-a79e-5218e5df5a68" />
-<img width="497" height="289" alt="Screenshot 2026-01-10 142332" src="https://github.com/user-attachments/assets/e4fce224-58f0-4e98-ae22-769f3a5ffa5e" />
-<img width="488" height="311" alt="Screenshot 2026-01-10 142214" src="https://github.com/user-attachments/assets/2f533073-5c2c-4129-8cf6-9b4b88759b00" />
-<img width="572" height="305" alt="Screenshot 2026-01-10 135409" src="https://github.com/user-attachments/assets/8d6a94fc-c7f6-43ef-a997-a0f80c05afdd" />
-<img width="569" height="313" alt="Screenshot 2026-01-10 135300" src="https://github.com/user-attachments/assets/9991bea7-f8d8-4c2a-9d01-926996cda23a" />
-<img width="571" height="227" alt="Screenshot 2026-01-10 135215" src="https://github.com/user-attachments/assets/2f623b5e-1a5c-40bc-9560-3c2ffc61417b" />
-<img width="578" height="322" alt="Screenshot 2026-01-10 135159" src="https://github.com/user-attachments/assets/d9871551-7c12-4de3-95a9-fa3d998387ea" />
-<img width="491" height="316" alt="Screenshot 2026-01-11 145608" src="https://github.com/user-attachments/assets/f4ecd1e6-ad3a-4668-a33a-6ca379644c32" />
-<img width="491" height="287" alt="Screenshot 2026-01-09 175438" src="https://github.com/user-attachments/assets/3601c5bd-2b89-4196-ac6a-7a656c5ec0c9" />
-<img width="488" height="107" alt="Screenshot 2026-01-09 171251" src="https://github.com/user-attachments/assets/973129e5-2a14-4635-b0cf-6d6d72912667" />
-<img width="142" height="48" alt="Screenshot 2026-01-09 170800" src="https://github.com/user-attachments/assets/e596bd46-5b2b-4bea-98a6-35e15ced1c05" />
-<img width="447" height="303" alt="Screenshot 2026-01-09 165007" src="https://github.com/user-attachments/assets/01fed95f-5f36-4548-ae86-865ba6d5aa32" />
-<img width="492" height="254" alt="Screenshot 2026-01-09 164953" src="https://github.com/user-attachments/assets/08001d38-57f3-4c47-8a97-7d48eb08e117" />
-<img width="575" height="330" alt="Screenshot 2026-01-09 164909" src="https://github.com/user-attachments/assets/bee9bd7c-1f0d-4532-8671-ce0d80040658" />
+
+![df -h](https://github.com/user-attachments/assets/f4f5ec39-e689-43fb-b582-0f24f7b030b0)
+![df -h](https://github.com/user-attachments/assets/1cbc3fdc-042b-4cb4-940e-932ebef32ef9)
+![df -h](https://github.com/user-attachments/assets/ad7d1c60-ab07-4e88-81e3-fa37549ce795)
+![df -h](https://github.com/user-attachments/assets/b5773fe1-d6a0-4c9f-ba17-358ca087192d)
+![df -h](https://github.com/user-attachments/assets/185eb817-029a-41c0-b441-70556fffc50e)
+![df -h](https://github.com/user-attachments/assets/55065ff1-9e2a-4fd0-aeff-e93bb8a169b1)
+![df -h](https://github.com/user-attachments/assets/064aedff-1997-420b-9173-55cd40a436a6)
+![df -h](https://github.com/user-attachments/assets/8d1edcbf-e4af-4059-a4bc-740269773470)
+![df -h](https://github.com/user-attachments/assets/8ee89dc3-75d5-4d5a-822c-7a1628389f26)
+![df -h](https://github.com/user-attachments/assets/c7163486-d674-4354-a83d-e477c50b4de0)
+![df -h](https://github.com/user-attachments/assets/00d3b3b9-3943-434d-9dd9-849922239ddb)
+**Security Baseline Verification Script**
+
+![df -h](https://github.com/user-attachments/assets/4f2b4ad1-1d6d-4204-a79e-5218e5df5a68)
+![df -h](https://github.com/user-attachments/assets/e4fce224-58f0-4e98-ae22-769f3a5ffa5e)
+![df -h](https://github.com/user-attachments/assets/2f533073-5c2c-4129-8cf6-9b4b88759b00)
+> [!NOTE]
+> auto updates provide more security benefits as opposed to not having them, but there is still a risk of new updates having unresolved breaches or bugs that end up being auto installed ontoyour device without your input. 
+
+![df -h](https://github.com/user-attachments/assets/8d6a94fc-c7f6-43ef-a997-a0f80c05afdd)
+![df -h](https://github.com/user-attachments/assets/9991bea7-f8d8-4c2a-9d01-926996cda23a)
+![df -h](https://github.com/user-attachments/assets/2f623b5e-1a5c-40bc-9560-3c2ffc61417b)
+![df -h](https://github.com/user-attachments/assets/d9871551-7c12-4de3-95a9-fa3d998387ea)
+![df -h](https://github.com/user-attachments/assets/f4ecd1e6-ad3a-4668-a33a-6ca379644c32)
+> [!NOTE]
+> `enabled = true` enables the ssh jail, `port` 22 is the default port used in ssh communication, `filter` enables filter files for ssh which are sets of regular expressions that catch failed logins, `logpath` `maxretry`number of retries a user can have after failing a login, `bantime`is how long a user will be banned for when failing an login attempt, `findtime` is the time window within the maxretrys will count towards a ban.
+
+![df -h](https://github.com/user-attachments/assets/3601c5bd-2b89-4196-ac6a-7a656c5ec0c9)
+**AppArmor report**
+
+![df -h](https://github.com/user-attachments/assets/973129e5-2a14-4635-b0cf-6d6d72912667)
+![df -h](https://github.com/user-attachments/assets/e596bd46-5b2b-4bea-98a6-35e15ced1c05)
+![df -h](https://github.com/user-attachments/assets/01fed95f-5f36-4548-ae86-865ba6d5aa32)
+![df -h](https://github.com/user-attachments/assets/08001d38-57f3-4c47-8a97-7d48eb08e117)
+![df -h](https://github.com/user-attachments/assets/bee9bd7c-1f0d-4532-8671-ce0d80040658)
+> [!NOTE]
+> apparmor profiles are basiclly a set of restrictions for a program/s that dictate what permissions it has, the enforce mode logs violations and blocks them while complain mode only logs violation but lets them continue.
+
 <img width="488" height="313" alt="Screenshot 2026-01-11 135726" src="https://github.com/user-attachments/assets/1fe35c1c-6480-4edc-b030-3d3b90078b5c" />
 
 ## Week 6
