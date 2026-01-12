@@ -60,16 +60,16 @@ Threat modeling:
 3 Malware - Automatic updates, install malware detector
 
 
-For your journal: Document pipeline examples with explanations. Explain how pipes 
+Document pipeline examples with explanations. Explain how pipes 
 enable process cooperation and data flow between programmes.
 
-For your journal: Screenshots showing named pipe communication. Explain the difference 
+Screenshots showing named pipe communication. Explain the difference 
 between anonymous pipes (|) and named pipes (FIFO), including use cases for each.
 
-For your journal: Signal handling script with explanations. Discuss the importance of 
+Signal handling script with explanations. Discuss the importance of 
 signal handling in robust applications.
 
-For your journal: Producer/consumer scripts with explanations. Discuss the challenges of 
+Producer/consumer scripts with explanations. Discuss the challenges of 
 inter-process synchronisation and race conditions
 ![df -h](https://github.com/user-attachments/assets/aca97e9e-22f1-4976-8b1c-c4d356ba26b3)
 ![df -h](https://github.com/user-attachments/assets/d9177941-3a81-47fa-a3ba-502763fa85ac)
