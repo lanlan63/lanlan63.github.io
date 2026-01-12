@@ -1,20 +1,38 @@
-# Operating Systems Journal - Lani
+# Operating Systems Journal 
+Project overview:
+This journal documents 7 weeks of coursework centered around the implementation of my chosen linuz distrobution (Ubuntu) and what I did to configure, and enhance its security alongside evaluating its performance. 
+
+Table of contents:
+[Week 1](#week-1)
+[Week 2](#week-2)
+[Week 3](#week-3)
+[Week 4](#week-4)
+[Week 5](#week-5)
+[Week 6](#week-6)
+[Week 7](#week-7)
+
+
+
 ## Week 1
 ### System Planning and Distribution Selection
-Plan your operating system deployment and justify technical decisions.
-Deliverables (for your Journal):
-1. Create a System Architecture Diagram showing both systems and network connections
-![archdia](https://github.com/user-attachments/assets/f99ee90f-7ef3-4eff-bbce-7e6fa4679201)
-3. Distribution Selection Justification comparing your chosen server distribution with 
-alternatives
-4. Workstation configuration decision justifying your choice of workstation option
-5. Network configuration documentation covering VirtualBox settings and IP addressing
-6. Using a CLI, document system specifications using `uname`, `free`, `df -h`, `ip addr`, and 
-`lsb_release`
+Between Ubuntu and Arch Linux, I decided to use Ubuntu because I was more familiar with it.
+Both distros use a monolithic type kernal which means you can modify and interact a lot more with the computer, as things such as process managment and IPC is easily acccesable through the kernal.
+![archdia](https://github.com/user-attachments/assets/04b96675-4da5-4b55-b773-795553eb287c)
+Ubuntu is very beginner friendly as it doesnt require a lot of set up to get it working and a good majority of tasks can be done simply with the GUI, while still alllowing free range to do it through the kernal as well, making it good to practice on. Arch LInux requires a lot more CLI use and research with file editing to get it set up and working, but its better for a wider range of customisation options and configuration of your system.
+I used oracle VirtualBox in order to run Ubuntu within a virtual machine. 
+Here I used the command line interface to find out more information about the current system I was using using different commands.
 ![free and free](https://github.com/user-attachments/assets/103d48af-d61d-4c81-9ad0-f253d0bad065)
+> [!NOTE]
+> Uname tells me information about the linux systems I am using with the -a option to display anthing available, df gives me details about the disk space with the -h option to put it in a human readable format, free displays all used and available memory, 
 ![df -h](https://github.com/user-attachments/assets/c20836a5-3563-4ecc-86d9-17424986385e)
+> > [!NOTE]
+> ip is a networking command and the adrr options lets me see the ip adress for my computer.
 ![ipadress](https://github.com/user-attachments/assets/3f0ba298-990f-4e67-a7ad-6723999822d3)
+> > > [!NOTE]
+> hostname shows my domain name system and with the i- options also lets me see my ip adress
 ![lsbrelease](https://github.com/user-attachments/assets/a5979f32-00d8-4a0b-a3de-ffb3ab99c138)
+> [!NOTE]
+> lsb_release displays the distro information
 
 
 ## Week 2 
