@@ -165,24 +165,31 @@ To get ssh to work on ubuntu I had to install it first using (`sudo apt-get inst
 ## Week 5
 ### Advanced Security and Monitoring Infrastructure 
 
-Document AppArmor status with screenshots. Explain the structure of 
-an AppArmor profile and the purpose of enforce vs complain modes
+The file content wouldn't display when inputing directory path so I had to manually move to the directory first to view the file contents
+![df -h](https://github.com/user-attachments/assets/973129e5-2a14-4635-b0cf-6d6d72912667)
+![df -h](https://github.com/user-attachments/assets/e596bd46-5b2b-4bea-98a6-35e15ced1c05)
+![df -h](https://github.com/user-attachments/assets/01fed95f-5f36-4548-ae86-865ba6d5aa32)
+![df -h](https://github.com/user-attachments/assets/08001d38-57f3-4c47-8a97-7d48eb08e117)
+![df -h](https://github.com/user-attachments/assets/bee9bd7c-1f0d-4532-8671-ce0d80040658)
+> [!NOTE]
+> AppARmor profiles are basiclly a set of restrictions for a program/s that dictate what permissions it has, the enforce mode logs policy violations and blocks them while complain mode only logs violations while letting them continue.
 
-(file content wouldn't display when inputing directory path so I had to manually move to the directory first to view the file contents | tcpdump is in enforce mode which means policy violations are blocked and logged)
+![df -h](https://github.com/user-attachments/assets/3601c5bd-2b89-4196-ac6a-7a656c5ec0c9)
+**AppArmor report**
 
+![df -h](https://github.com/user-attachments/assets/8d6a94fc-c7f6-43ef-a997-a0f80c05afdd)
+![df -h](https://github.com/user-attachments/assets/9991bea7-f8d8-4c2a-9d01-926996cda23a)
+![df -h](https://github.com/user-attachments/assets/2f623b5e-1a5c-40bc-9560-3c2ffc61417b)
+![df -h](https://github.com/user-attachments/assets/d9871551-7c12-4de3-95a9-fa3d998387ea)
+![df -h](https://github.com/user-attachments/assets/f4ecd1e6-ad3a-4668-a33a-6ca379644c32)
+> [!NOTE]
+> `enabled = true` enables the ssh jail, `port` 22 is the default port used in ssh communication, `filter` enables filter files for ssh which are sets of regular expressions that catch failed logins, `logpath` `maxretry`number of retries a user can have after failing a login, `bantime`is how long a user will be banned for when failing an login attempt, `findtime` is the time window within the maxretrys will count towards a ban.
 
-
-
-
-<img width="492" height="314" alt="Screenshot 2026-01-11 135707" src="https://github.com/user-attachments/assets/cd03f638-ed48-4924-a21c-17bc61352b50" />
-<img width="484" height="314" alt="Screenshot 2026-01-11 135645" src="https://github.com/user-attachments/assets/eb7f1f00-6ecc-465c-8523-d17163a61f3b" />
-<img width="488" height="315" alt="Screenshot 2026-01-11 135618" src="https://github.com/user-attachments/assets/4ee1d6f6-57a7-421e-8c34-05cd5a5f0d1a" />
-<img width="487" height="338" alt="Screenshot 2026-01-11 135527" src="https://github.com/user-attachments/assets/73bba842-865c-42b4-8b1d-83fe3757cbc5" />
-<img width="491" height="314" alt="Screenshot 2026-01-11 135128" src="https://github.com/user-attachments/assets/0a09bfb1-d79b-476c-864b-6a1654ca56b8" />
-<img width="491" height="323" alt="Screenshot 2026-01-11 135111" src="https://github.com/user-attachments/assets/b11eb8d7-b66c-4891-9460-dd13533e6a53" />
-<img width="489" height="320" alt="Screenshot 2026-01-11 135046" src="https://github.com/user-attachments/assets/5a2324a9-0b02-4f02-be3e-d5a19b0d899a" />
-<img width="488" height="316" alt="Screenshot 2026-01-11 135031" src="https://github.com/user-attachments/assets/e1daf0b3-1b41-4107-b835-8bb657c49cef" />
-<img width="494" height="302" alt="Screenshot 2026-01-11 134950" src="https://github.com/user-attachments/assets/d4e89c2b-05d2-4d27-a25d-de54523137eb" />
+![df -h](https://github.com/user-attachments/assets/4f2b4ad1-1d6d-4204-a79e-5218e5df5a68)
+![df -h](https://github.com/user-attachments/assets/e4fce224-58f0-4e98-ae22-769f3a5ffa5e)
+![df -h](https://github.com/user-attachments/assets/2f533073-5c2c-4129-8cf6-9b4b88759b00)
+> [!NOTE]
+> auto updates provide more security benefits as opposed to not having them, but there is still a risk of new updates having unresolved breaches or bugs that end up being auto installed ontoyour device without your input.
 
 ![df -h](https://github.com/user-attachments/assets/f4f5ec39-e689-43fb-b582-0f24f7b030b0)
 ![df -h](https://github.com/user-attachments/assets/1cbc3fdc-042b-4cb4-940e-932ebef32ef9)
@@ -197,75 +204,42 @@ an AppArmor profile and the purpose of enforce vs complain modes
 ![df -h](https://github.com/user-attachments/assets/00d3b3b9-3943-434d-9dd9-849922239ddb)
 **Security Baseline Verification Script**
 
-![df -h](https://github.com/user-attachments/assets/4f2b4ad1-1d6d-4204-a79e-5218e5df5a68)
-![df -h](https://github.com/user-attachments/assets/e4fce224-58f0-4e98-ae22-769f3a5ffa5e)
-![df -h](https://github.com/user-attachments/assets/2f533073-5c2c-4129-8cf6-9b4b88759b00)
-> [!NOTE]
-> auto updates provide more security benefits as opposed to not having them, but there is still a risk of new updates having unresolved breaches or bugs that end up being auto installed ontoyour device without your input. 
+![df -h](https://github.com/user-attachments/assets/cd03f638-ed48-4924-a21c-17bc61352b50)
+![df -h](https://github.com/user-attachments/assets/eb7f1f00-6ecc-465c-8523-d17163a61f3b)
+![df -h](https://github.com/user-attachments/assets/4ee1d6f6-57a7-421e-8c34-05cd5a5f0d1a)
+![df -h](https://github.com/user-attachments/assets/73bba842-865c-42b4-8b1d-83fe3757cbc5)
+![df -h](https://github.com/user-attachments/assets/0a09bfb1-d79b-476c-864b-6a1654ca56b8)
+![df -h](https://github.com/user-attachments/assets/b11eb8d7-b66c-4891-9460-dd13533e6a53)
+![df -h](https://github.com/user-attachments/assets/5a2324a9-0b02-4f02-be3e-d5a19b0d899a)
+![df -h](https://github.com/user-attachments/assets/e1daf0b3-1b41-4107-b835-8bb657c49cef)
+![df -h](https://github.com/user-attachments/assets/d4e89c2b-05d2-4d27-a25d-de54523137eb)
+![df -h](https://github.com/user-attachments/assets/1fe35c1c-6480-4edc-b030-3d3b90078b5c)
+**Remote Monitoring Script**
 
-![df -h](https://github.com/user-attachments/assets/8d6a94fc-c7f6-43ef-a997-a0f80c05afdd)
-![df -h](https://github.com/user-attachments/assets/9991bea7-f8d8-4c2a-9d01-926996cda23a)
-![df -h](https://github.com/user-attachments/assets/2f623b5e-1a5c-40bc-9560-3c2ffc61417b)
-![df -h](https://github.com/user-attachments/assets/d9871551-7c12-4de3-95a9-fa3d998387ea)
-![df -h](https://github.com/user-attachments/assets/f4ecd1e6-ad3a-4668-a33a-6ca379644c32)
-> [!NOTE]
-> `enabled = true` enables the ssh jail, `port` 22 is the default port used in ssh communication, `filter` enables filter files for ssh which are sets of regular expressions that catch failed logins, `logpath` `maxretry`number of retries a user can have after failing a login, `bantime`is how long a user will be banned for when failing an login attempt, `findtime` is the time window within the maxretrys will count towards a ban.
-
-![df -h](https://github.com/user-attachments/assets/3601c5bd-2b89-4196-ac6a-7a656c5ec0c9)
-**AppArmor report**
-
-![df -h](https://github.com/user-attachments/assets/973129e5-2a14-4635-b0cf-6d6d72912667)
-![df -h](https://github.com/user-attachments/assets/e596bd46-5b2b-4bea-98a6-35e15ced1c05)
-![df -h](https://github.com/user-attachments/assets/01fed95f-5f36-4548-ae86-865ba6d5aa32)
-![df -h](https://github.com/user-attachments/assets/08001d38-57f3-4c47-8a97-7d48eb08e117)
-![df -h](https://github.com/user-attachments/assets/bee9bd7c-1f0d-4532-8671-ce0d80040658)
-> [!NOTE]
-> apparmor profiles are basiclly a set of restrictions for a program/s that dictate what permissions it has, the enforce mode logs violations and blocks them while complain mode only logs violation but lets them continue.
-
-<img width="488" height="313" alt="Screenshot 2026-01-11 135726" src="https://github.com/user-attachments/assets/1fe35c1c-6480-4edc-b030-3d3b90078b5c" />
 
 ## Week 6
 ### Performance Evaluation and Analysis 
 
-Testing Methodology:
-1. CPU usage
-2. Memory usage
-3. Disk I/O performance
-4. Network performance
-5. System latency
-6. Service response times.
+![df -h](https://github.com/user-attachments/assets/88c8f7e9-e535-48b4-9cd3-ca8fe78af7dd)
+> [!NOTE]
+> Application load testing: cpu usage
 
+![df -h](https://github.com/user-attachments/assets/04fe4e1d-03bb-4052-be30-9e71edd953b8)
+> [!NOTE]
+> Baseline performance testing table
 
-
-Testing Scenarios:
-• Baseline performance testing
-• Application load testing
-• Performance analysis identifying bottlenecks
-• Optimisation testing. Aim to implement and evidence at least two improvements.
-
-Deliverables
-1. Document your approach
-2. Create a performance data table with structured measurements for all applications and 
-metrics
-3. Create performance visualisations including charts and graphs
-4. Capture testing evidence
-5. Conduct network performance analysis documenting latency and throughput
-6. Capture optimisation analysis results describing improvements with quantitative data
+![df -h](https://github.com/user-attachments/assets/6d209c23-ab82-4eef-b6f9-4f1b511bd2e6)
+![df -h](https://github.com/user-attachments/assets/6ec3e80b-ce26-4c73-9516-e04f4b7d977c)
+> [!NOTE]
+> Application load testing: Disk I/O performance
 
 ## Week 7
 ### Security Audit and System Evaluation 
 
-Audit Tasks: Security scanning with Lynis, network security assessment with 
-nmap, access control verification, service audit justifying all running services, and system 
-configuration review.
+![df -h](https://github.com/user-attachments/assets/3a6568d4-e0d0-4632-974f-01c243a304d2)
+![df -h](https://github.com/user-attachments/assets/5f4719c6-76b1-499e-bfba-86619b61de07)
+> [!NOTE]
+> Security scanning with Lynis
 
-2.Security Audit Report covering infrastructure security assessment, Lynis scores before and 
-after remediation, network security testing results, SSH security verification, service 
-inventory with justifications, and remaining risk assessment
-<img width="404" height="259" alt="Screenshot 2026-01-11 155124" src="https://github.com/user-attachments/assets/3a6568d4-e0d0-4632-974f-01c243a304d2" />
-<img width="406" height="262" alt="Screenshot 2026-01-11 155026" src="https://github.com/user-attachments/assets/5f4719c6-76b1-499e-bfba-86619b61de07" />
-<img width="493" height="41" alt="Screenshot 2026-01-11 154006" src="https://github.com/user-attachments/assets/88c8f7e9-e535-48b4-9cd3-ca8fe78af7dd" />
-<img width="269" height="112" alt="Screenshot 2026-01-11 153430" src="https://github.com/user-attachments/assets/04fe4e1d-03bb-4052-be30-9e71edd953b8" />
-<img width="488" height="241" alt="Screenshot 2026-01-11 153008" src="https://github.com/user-attachments/assets/6d209c23-ab82-4eef-b6f9-4f1b511bd2e6" />
-<img width="488" height="315" alt="Screenshot 2026-01-11 152447" src="https://github.com/user-attachments/assets/6ec3e80b-ce26-4c73-9516-e04f4b7d977c" />
+
 
